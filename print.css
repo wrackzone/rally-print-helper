@@ -128,7 +128,8 @@ body {
 }
 
 .project {
-    text-align: center;
+    float : left;
+    /*text-align: center;*/
     /*font-weight: bold;*/
     font: 1.4em Georgia, sans-serif;
     margin: .25em auto 0;
