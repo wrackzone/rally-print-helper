@@ -78,33 +78,8 @@ body {
     word-wrap: break-word
 }
 
-.constraints-header {
-    float: left;
-    font-weight: bold;
-    font: 1.4em Georgia, sans-serif;
-    margin: .25em auto 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    overflow-y: hidden;
-    word-wrap: break-word
-}
-
-.theme-header {
-    float: right;
-    font-weight: bold;
-    font: 1.4em Georgia, sans-serif;
-    margin: .25em auto 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    overflow-y: hidden;
-    word-wrap: break-word
-}
-
 .constraints {
     float: left;
-    /*font-weight: bold;*/
     font: 1.4em Georgia, sans-serif;
     margin: .25em auto 0;
     padding-left: 1em;
@@ -116,20 +91,21 @@ body {
 
 
 .theme {
-    float: right;
-    /*font-weight: bold;*/
+    clear:both;
+    float: left;
     font: 1.4em Georgia, sans-serif;
     margin: .25em auto 0;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 1em;
+    padding-top: .25em;
     overflow-y: hidden;
     word-wrap: break-word
 }
 
 .project {
-    float : left;
-    /*text-align: center;*/
+    clear:both;
+    float:left;
+    text-align: left;
     /*font-weight: bold;*/
     font: 1.4em Georgia, sans-serif;
     margin: .25em auto 0;
@@ -140,14 +116,20 @@ body {
     word-wrap: break-word
 }
 
+.clear-header {
+    clear:both;
+}
+
 .notes {
+    clear:both;
     float: left;
+    /*clear : both;*/
     /*font-weight: bold;*/
     font: 1.4em Georgia, sans-serif;
     margin: .25em auto 0;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 1em;
+    padding-top: .25em;
     padding-bottom: 1em;
     overflow-y: hidden;
     word-wrap: break-word
